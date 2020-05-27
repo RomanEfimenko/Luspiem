@@ -1,0 +1,131 @@
+* {
+	margin: 0em;
+	padding: 0em;
+}
+
+a
+{
+	color: #995500;
+}
+
+body
+{
+	font-family: 'Roboto Slab', serif;
+}
+
+/* Header */
+
+#header
+{
+	display: flex;
+	padding: 24px 0 24px 0;
+	background-color: #FFE28F;
+	min-width: 16px;
+	min-height: 16px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header #logo {
+	margin-left: 48px;
+}
+
+#header #menu {
+	margin-right: 48px;
+}
+
+#header h1
+{
+	font-family: 'Cinzel Decorative', cursive;
+	color: #005454;
+	font-size: 36px;
+}
+
+#menu {
+	display: flex;
+}
+
+.link_menu {
+	margin: 12px;
+}
+
+.link_menu a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+/* ----- PANEL -------- */
+
+#panel {
+	display: flex;
+	padding: 16px 16px 24px 16px;
+	/*background-color: #FFE28F;*/
+	min-width: 16px;
+	min-height: 16px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#panel .function {
+	display: flex;
+}
+
+#panel .function a {
+	margin: 8px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* ----- PAGE -------- */
+
+#page {
+	display: flex;
+	padding: 16px 16px 24px 16px;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#page .point {
+	padding: 8px 16px 8px 16px;
+	margin:	8px;
+	background-color: #FFE28F;
+}
+
+#page .point a {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+/*------------- ПОИСК---------------*/
+
+form {
+		margin: 16px;
+    width: 200px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+input{
+    height: 32px;
+    line-height: 30px;
+    outline: 0;
+    border: 1PX Solid black;
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+
+
+form:hover{
+    cursor: pointer;
+}
